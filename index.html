@@ -8,10 +8,10 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Agency - Start Bootstrap Theme</title>
+  <title>BlackBox: Photographic Film Processor</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -21,16 +21,34 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="css/agency.min.css" rel="stylesheet">
+  <link href="css/agency.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
+  <!-- GDPR Consent -->
+  <div id="consentModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="false" data-backdrop="static" data-keyboard="false">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
+<h2 class="text-center">Trust and transparency is important to us.</h2>
+<p class="text-justify">
+It takes a lot of work to build, maintain, and improve a free online tool like this. We and third parties use tech like cookies to make this happen.
+</p>
+<p class="text-justify">
+By continuing, you consent to the use of these technologies, and affirm you're at least 16 years old or have consent from a parent or guardian.
+</p>
+<button id="giveCookieConsentButton" class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="false"> OK. Let's go! </button>
+</div>
+</div>
+</div>
+</div>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <!--<a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>-->
+      <img class="header-logo-white js-scroll-trigger" href="#page-top" src="img/logos/whitetext-boxlogo.png" alt="Black Box white version of the logo">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -38,10 +56,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">ABOUT US</a>
+            <a class="nav-link js-scroll-trigger" href="#product">OUR PRODUCT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">OUR PRODUCT</a>
+            <a class="nav-link js-scroll-trigger" href="#about-us">ABOUT US</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">OUR TEAM</a>
@@ -61,19 +79,22 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        <div>
+          <img src="img/logos/whitebox.png" alt="Image of black box logo">
+        </div>
+        <!--<div class="intro-lead-in">Welcome To Our Studio!</div>-->
+        <div class="intro-heading text-uppercase">Automatic Film Processor</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about-us">Show Me More</a>
       </div>
     </div>
   </header>
 
   <!-- Services -->
-  <section class="page-section" id="services">
+  <section class="page-section" id="product">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Services</h2>
+          <h2 class="section-heading text-uppercase">Our Product</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
@@ -107,11 +128,11 @@
   </section>
 
   <!-- Portfolio Grid -->
-  <section class="bg-light page-section" id="portfolio">
+  <section class="bg-light page-section" id="about-us">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
+          <h2 class="section-heading text-uppercase">About us</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
@@ -376,6 +397,8 @@
     </div>
   </section>
 
+  <!-- About us cards -->
+
   <!-- Clients -->
   <section class="py-5">
     <div class="container">
@@ -454,7 +477,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; BlackBox Ltd</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
