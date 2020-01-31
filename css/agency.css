@@ -885,10 +885,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 
-#photosoc{
-  width = 2px;
-}
 
+.clients img{
+  width: 50%;
+}
+/* 
 .card, .card-header {
   background-color: #transparent !important;
   border: none !important;
@@ -941,7 +942,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   transform: rotate(45deg);
   left: 30px;
   top: 46px:
-}
+} */
 
 #faq_color_tag {
   color: #4ec8f1;
@@ -979,6 +980,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   padding: 50px 0;
 }
 
- .icons  img {
-  width = 20px;
+ .icons  img{
+  width: 50%;
+  text-align: center;
 }
