@@ -889,7 +889,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .clients img{
   width: 50%;
 }
-/* 
+/*
 .card, .card-header {
   background-color: #transparent !important;
   border: none !important;
@@ -983,4 +983,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
  .icons  img{
   width: 50%;
   text-align: center;
+}
+
+#web {
+  padding-top: 50px;
 }
