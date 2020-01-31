@@ -964,3 +964,21 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 #blue-render1 {
   width: 100%;
 }
+
+#paper-holder-circle {
+  text-align: center;
+}
+
+#paper-holder-circle-2 {
+  width: 80%;
+  padding-left: 50px ;
+
+}
+
+#our-product-text {
+  padding: 50px 0;
+}
+
+ .icons  img {
+  width = 20px;
+}
